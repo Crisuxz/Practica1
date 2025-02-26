@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Web</title>
+    <link rel="preload" href="/practica1/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/practica1/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    :root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(g) 0%, var(--blanco) 100% );
+}
+h1 {
+    font-size: 3.8rem;
+}
+.boton:hover {
+    .boton {
+        width: auto;
+    }
+}
+.nav-bg {
+    background-color: var(--secundario);
+}
+.navegación-principal{
+    display:flex;
+    flex-direction: column;
+    
+}
+@media (min-width: 768px) {
+    .navegación-principal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.sombra {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+}
+.navegación-principal a{
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegación-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+header {
+    text-align: center;
+}
+</style>
+
+<body>
+    <header>
+        <h1 class="título">Clientes</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegación-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Sobre Nostoros</a>
+            <a href="#">Clientes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    <main>
+        <section class="contenedor_img_Datos">
+            <h2>Clientes</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic 
+                typesetting, remaining essentially unchanged</p> 
+        </section>
+    </main>
+</body>
+</html>

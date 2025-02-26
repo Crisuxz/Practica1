@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="título">Programadores Web <span>Facultad de Telemática</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegación-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="nosotros.html">Sobre Nostoros</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo Freelancer</h2>
+            <div class="ubicacion">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88"
+                        height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                </p>
+                <p>Colima, Colima</p>
+            </div>
+            <a class="boton" href="#">Contactar</a>
+        </div>
+    </section>
+
+    <main class="contenedor sombra">
+
+        <h2>Nuestros servicios</h2>
+        <div class="servicios">
+
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="4" width="20" height="14" rx="2" stroke="black" stroke-width="2"/>
+                        <path d="M2 10H22" stroke="black" stroke-width="2"/>
+                        <circle cx="6" cy="8" r="1" fill="black"/>
+                        <circle cx="10" cy="8" r="1" fill="black"/>
+                        <circle cx="14" cy="8" r="1" fill="black"/>
+                      </svg>
+                      
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis 
+                    dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+                <div class="iconos">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="4" width="20" height="14" rx="2" stroke="black" stroke-width="2"/>
+                        <circle cx="5" cy="8" r="1" fill="black"/>
+                        <circle cx="9" cy="8" r="1" fill="black"/>
+                        <rect x="5" y="12" width="14" height="4" stroke="black" stroke-width="2"/>
+                      </svg>                      
+                </div>
+                <p>Donec pede justo, fringilla vel, aliquet nec
+                    , vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, 
+                    justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </p>
+            </section>
+
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6H21L19 14H6L4 6Z" stroke="black" stroke-width="2"/>
+                        <circle cx="7" cy="18" r="2" stroke="black" stroke-width="2"/>
+                        <circle cx="17" cy="18" r="2" stroke="black" stroke-width="2"/>
+                      </svg>                      
+                </div>
+                <p> Aliquam lorem ante, dapibus in, 
+                    viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
+                    Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+            </section>
+        </div>
+
+
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu e-mail">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" placeholder="
+                            Mensaje"></textarea>
+                        </div>
+                    </div>
+                    <div class="enviar w-sm-100">
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados Cristian Figueroa | Facultad de Telemática</p>
+    </footer>
+</body>
+</html>
