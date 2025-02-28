@@ -112,7 +112,7 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 .hero {
-    background-image: url(credencial_Ucol.jpg);
+    background-image: url(hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
